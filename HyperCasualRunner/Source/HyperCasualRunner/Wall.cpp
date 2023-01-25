@@ -21,6 +21,6 @@ void AWall::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	SetActorLocation(GetActorLocation() + FVector(0, 350 * DeltaTime, 0), true);
-
+	SetActorLocation(GetActorLocation() + FVector(0, 575 * DeltaTime, 0), true);
+	
 }

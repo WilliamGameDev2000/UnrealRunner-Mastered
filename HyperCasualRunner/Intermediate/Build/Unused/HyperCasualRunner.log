@@ -2,11 +2,11 @@
   Building HyperCasualRunnerEditor...
   Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 12 processes...
-    [1/4] RunnerCharacter.cpp
-    [2/4] UE4Editor-HyperCasualRunner-0009.lib
-       Creating library C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0009.lib and object C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0009.exp
-    [3/4] UE4Editor-HyperCasualRunner-0009.dll
-       Creating library C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0009.suppressed.lib and object C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0009.suppressed.exp
+    [1/4] Wall.cpp
+    [2/4] UE4Editor-HyperCasualRunner-0012.lib
+       Creating library C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0012.lib and object C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0012.exp
+    [3/4] UE4Editor-HyperCasualRunner-0012.dll
+       Creating library C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0012.suppressed.lib and object C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0012.suppressed.exp
     [4/4] HyperCasualRunnerEditor.target
-  Total time in Parallel executor: 30.19 seconds
-  Total execution time: 31.07 seconds
+  Total time in Parallel executor: 2.34 seconds
+  Total execution time: 3.30 seconds
