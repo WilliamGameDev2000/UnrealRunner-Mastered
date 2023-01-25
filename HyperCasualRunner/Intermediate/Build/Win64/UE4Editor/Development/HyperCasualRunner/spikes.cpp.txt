@@ -1,0 +1,3 @@
+C:\Users\William\Documents\GitHub\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\Definitions.HyperCasualRunner.h
+C:\Users\William\Documents\GitHub\HyperCasualRunner\Source\HyperCasualRunner\spikes.h
+C:\Users\William\Documents\GitHub\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Inc\HyperCasualRunner\spikes.generated.h

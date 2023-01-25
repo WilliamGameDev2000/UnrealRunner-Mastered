@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HyperCasualRunner.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{90CD8D18-E909-4774-AEFD-ED52AFB9D229}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HyperCasualRunner.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HyperCasualRunnerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F92C404D-DB9C-4282-BE46-61B5DCE25F1F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HyperCasualRunner">
+      <UniqueIdentifier>{EF39929E-1822-42E9-85EE-CD4EC1FF862F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\BaseLevel.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\BaseLevel.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\HyperCasualRunner\HyperCasualRunner.Build.cs">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\HyperCasualRunner.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\HyperCasualRunner.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\HyperCasualRunnerCharacter.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\HyperCasualRunnerCharacter.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\HyperCasualRunnerGameMode.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\HyperCasualRunnerGameMode.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\Obstacles.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\Obstacles.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\RunnerCharacter.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\RunnerCharacter.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\spikes.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\spikes.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
