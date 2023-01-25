@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "HyperCasualRunner",
-			"Path": "C:\\Users\\William\\Documents\\GitHub\\HyperCasualRunner\\Source\\HyperCasualRunner.Target.cs",
+			"Path": "C:\\Users\\William\\Documents\\GitHub\\UnrealRunner-Mastered\\HyperCasualRunner\\Source\\HyperCasualRunner.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "HyperCasualRunnerEditor",
-			"Path": "C:\\Users\\William\\Documents\\GitHub\\HyperCasualRunner\\Source\\HyperCasualRunnerEditor.Target.cs",
+			"Path": "C:\\Users\\William\\Documents\\GitHub\\UnrealRunner-Mastered\\HyperCasualRunner\\Source\\HyperCasualRunnerEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -1,2 +1,2 @@
-C:\Users\William\Documents\GitHub\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\Definitions.HyperCasualRunner.h
-C:\Users\William\Documents\GitHub\HyperCasualRunner\Source\HyperCasualRunner\HyperCasualRunner.h
+C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\Definitions.HyperCasualRunner.h
+C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Source\HyperCasualRunner\HyperCasualRunner.h

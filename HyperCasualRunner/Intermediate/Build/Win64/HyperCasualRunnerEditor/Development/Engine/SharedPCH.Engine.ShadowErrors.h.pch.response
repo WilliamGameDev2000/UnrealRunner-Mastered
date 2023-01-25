@@ -260,11 +260,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I C:\Users\William\Documents\GitHub\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine
-/Yc"C:\Users\William\Documents\GitHub\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\William\Documents\GitHub\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\William\Documents\GitHub\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"C:\Users\William\Documents\GitHub\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine
+/Yc"C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

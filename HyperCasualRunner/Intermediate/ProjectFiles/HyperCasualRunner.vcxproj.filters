@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HyperCasualRunner.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{90CD8D18-E909-4774-AEFD-ED52AFB9D229}</UniqueIdentifier>
+      <UniqueIdentifier>{E7BB6B98-DC90-480D-9AD6-14D395705B95}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HyperCasualRunner.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F92C404D-DB9C-4282-BE46-61B5DCE25F1F}</UniqueIdentifier>
+      <UniqueIdentifier>{71821DF6-F94A-4275-BF4E-F4892F565FC6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HyperCasualRunner">
-      <UniqueIdentifier>{EF39929E-1822-42E9-85EE-CD4EC1FF862F}</UniqueIdentifier>
+      <UniqueIdentifier>{D6A08CAA-87E6-4350-9DB8-75B3784423F8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HyperCasualRunner\BaseLevel.cpp">
       <Filter>Source\HyperCasualRunner</Filter>
@@ -71,10 +71,28 @@
     <ClInclude Include="..\..\Source\HyperCasualRunner\RunnerCharacter.h">
       <Filter>Source\HyperCasualRunner</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\SectionData.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\SectionData.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\SpawnLevel.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\SpawnLevel.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HyperCasualRunner\spikes.cpp">
       <Filter>Source\HyperCasualRunner</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HyperCasualRunner\spikes.h">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HyperCasualRunner\Wall.cpp">
+      <Filter>Source\HyperCasualRunner</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HyperCasualRunner\Wall.h">
       <Filter>Source\HyperCasualRunner</Filter>
     </ClInclude>
   </ItemGroup>
