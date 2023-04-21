@@ -62,12 +62,18 @@ void ASpawnLevel::SpawnLevel(bool is_first)
 	level_list.Add(new_level);
 	if (level_list.Num() > 5)
 	{
-		level_list.RemoveAt(0);
+		GetWorld()->GetTimerManager().SetTimer(timerHandle, this, &ASpawnLevel::TimerEnd, 1.f, false);
 	}
 }
 
 void ASpawnLevel::OnOverlapBegin(UPrimitiveComponent* overlapped, AActor* actor, UPrimitiveComponent* other_comp, int32 other_index, bool sweep_result, const FHitResult& hit)
 {
 	SpawnLevel(false);
+}
+
+void ASpawnLevel::TimerEnd()
+{
+	level_list[0]->Destroy();
+	level_list.RemoveAt(0);
 }
 

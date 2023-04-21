@@ -23,6 +23,13 @@ void EmptyLinkFunctionForGeneratedCodeSpawnLevel() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	HYPERCASUALRUNNER_API UClass* Z_Construct_UClass_ABaseLevel_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ASpawnLevel::execTimerEnd)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->TimerEnd();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ASpawnLevel::execOnOverlapBegin)
 	{
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_overlapped);
@@ -50,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeSpawnLevel() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnOverlapBegin", &ASpawnLevel::execOnOverlapBegin },
 			{ "SpawnLevel", &ASpawnLevel::execSpawnLevel },
+			{ "TimerEnd", &ASpawnLevel::execTimerEnd },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -171,6 +179,28 @@ void EmptyLinkFunctionForGeneratedCodeSpawnLevel() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ASpawnLevel_TimerEnd_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASpawnLevel_TimerEnd_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SpawnLevel.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASpawnLevel_TimerEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASpawnLevel, nullptr, "TimerEnd", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASpawnLevel_TimerEnd_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ASpawnLevel_TimerEnd_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASpawnLevel_TimerEnd()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASpawnLevel_TimerEnd_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ASpawnLevel_NoRegister()
 	{
 		return ASpawnLevel::StaticClass();
@@ -198,6 +228,7 @@ void EmptyLinkFunctionForGeneratedCodeSpawnLevel() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASpawnLevel_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ASpawnLevel_OnOverlapBegin, "OnOverlapBegin" }, // 2636793934
 		{ &Z_Construct_UFunction_ASpawnLevel_SpawnLevel, "SpawnLevel" }, // 3672265328
+		{ &Z_Construct_UFunction_ASpawnLevel_TimerEnd, "TimerEnd" }, // 1382675139
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpawnLevel_Statics::Class_MetaDataParams[] = {
@@ -246,7 +277,7 @@ void EmptyLinkFunctionForGeneratedCodeSpawnLevel() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASpawnLevel, 1184198019);
+	IMPLEMENT_CLASS(ASpawnLevel, 1909377718);
 	template<> HYPERCASUALRUNNER_API UClass* StaticClass<ASpawnLevel>()
 	{
 		return ASpawnLevel::StaticClass();

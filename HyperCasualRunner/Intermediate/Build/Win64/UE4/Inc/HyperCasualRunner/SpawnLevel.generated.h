@@ -19,12 +19,14 @@ struct FHitResult;
 #define HyperCasualRunner_Source_HyperCasualRunner_SpawnLevel_h_14_SPARSE_DATA
 #define HyperCasualRunner_Source_HyperCasualRunner_SpawnLevel_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execTimerEnd); \
 	DECLARE_FUNCTION(execOnOverlapBegin); \
 	DECLARE_FUNCTION(execSpawnLevel);
 
 
 #define HyperCasualRunner_Source_HyperCasualRunner_SpawnLevel_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execTimerEnd); \
 	DECLARE_FUNCTION(execOnOverlapBegin); \
 	DECLARE_FUNCTION(execSpawnLevel);
 

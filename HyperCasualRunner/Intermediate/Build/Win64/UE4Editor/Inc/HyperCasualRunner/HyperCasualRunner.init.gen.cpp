@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHyperCasualRunner_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x0118CD62,
+				0x0C050666,
 				0xDC2185E2,
 				METADATA_PARAMS(nullptr, 0)
 			};

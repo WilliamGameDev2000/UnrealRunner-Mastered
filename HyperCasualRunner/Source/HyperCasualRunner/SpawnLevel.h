@@ -50,4 +50,10 @@ public:
 	FRotator spawn_rotation = FRotator();
 	FActorSpawnParameters spawn_info = FActorSpawnParameters();
 
+private:
+	UFUNCTION()
+		void TimerEnd();
+
+	FTimerHandle timerHandle;
+
 };

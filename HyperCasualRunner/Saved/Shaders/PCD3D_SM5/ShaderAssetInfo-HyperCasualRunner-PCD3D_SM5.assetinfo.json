@@ -299,13 +299,7 @@
 			]
 		},
 		{
-			"ShaderMapHash": "7D90D61517A459DF3A169758CD8957E3CBB411E9",
-			"Assets": [
-				"/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse"
-			]
-		},
-		{
-			"ShaderMapHash": "0B696E3B9B14F49F47B01D2C84052ABE02EEDB59",
+			"ShaderMapHash": "967B56B91B077481C7164405026AE82319129113",
 			"Assets": [
 				"/Engine/VREditor/Devices/Vive/M_ViveControllerTrim"
 			]
@@ -347,7 +341,7 @@
 			]
 		},
 		{
-			"ShaderMapHash": "04310E88BDF9CF9E7CBDE3526D832FD474013AA8",
+			"ShaderMapHash": "CA2B50EC6A6FDD05D0415CD69DE110818B40AD11",
 			"Assets": [
 				"/Engine/VREditor/LaserPointer/LaserPointerMaterial"
 			]
@@ -434,12 +428,6 @@
 			"ShaderMapHash": "B9FC330B84198BA79D67AD1358AFFACA8C3FD7EB",
 			"Assets": [
 				"/Game/StarterContent/Materials/M_Water_Lake"
-			]
-		},
-		{
-			"ShaderMapHash": "6FD20996E93CFC7035F898FBBFA4B2E1A0CE2C88",
-			"Assets": [
-				"/Game/StarterContent/Materials/M_Tech_Panel"
 			]
 		},
 		{
@@ -641,12 +629,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "52C386DB6B6C39D9602B012EDD64A051E27914C2",
-			"Assets": [
-				"/Game/StarterContent/Materials/M_Metal_Brushed_Nickel"
-			]
-		},
-		{
 			"ShaderMapHash": "4808F2C13D119176F2E8C48220A0C41C36814F04",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_Lamp"
@@ -726,18 +708,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "7ECE08B01860EA78AF6CA37EA7711D67CB1F639D",
-			"Assets": [
-				"/Game/StarterContent/Props/Materials/M_MaterialSphere_Plain"
-			]
-		},
-		{
-			"ShaderMapHash": "B3C252A3B0FA29061ABC84E9E254F4D7E80ED44A",
-			"Assets": [
-				"/Game/StarterContent/Props/Materials/M_MaterialSphere"
-			]
-		},
-		{
 			"ShaderMapHash": "6C80021D77B7FBE5BA85056BEC9D641E61C28711",
 			"Assets": [
 				"/Game/StarterContent/Props/Materials/M_Door"
@@ -765,6 +735,36 @@
 			"ShaderMapHash": "039A91F25D4D3C75E91D1CFBA4AFA4EC135038A6",
 			"Assets": [
 				"/Game/StarterContent/Particles/Materials/M_Burst"
+			]
+		},
+		{
+			"ShaderMapHash": "7D90D61517A459DF3A169758CD8957E3CBB411E9",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse"
+			]
+		},
+		{
+			"ShaderMapHash": "B3C252A3B0FA29061ABC84E9E254F4D7E80ED44A",
+			"Assets": [
+				"/Game/StarterContent/Props/Materials/M_MaterialSphere"
+			]
+		},
+		{
+			"ShaderMapHash": "7ECE08B01860EA78AF6CA37EA7711D67CB1F639D",
+			"Assets": [
+				"/Game/StarterContent/Props/Materials/M_MaterialSphere_Plain"
+			]
+		},
+		{
+			"ShaderMapHash": "52C386DB6B6C39D9602B012EDD64A051E27914C2",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Metal_Brushed_Nickel"
+			]
+		},
+		{
+			"ShaderMapHash": "6FD20996E93CFC7035F898FBBFA4B2E1A0CE2C88",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Tech_Panel"
 			]
 		}
 	]

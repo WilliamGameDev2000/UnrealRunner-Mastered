@@ -1,12 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\William\Documents\GitHub\UnrealRunner-Mastered).
+  Parsing headers for HyperCasualRunnerEditor
+    Running UnrealHeaderTool "C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\HyperCasualRunner.uproject" "C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\HyperCasualRunnerEditor\Development\HyperCasualRunnerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\William\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for HyperCasualRunnerEditor in 22.0419981 seconds
   Building HyperCasualRunnerEditor...
   Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] Wall.cpp
-    [2/4] UE4Editor-HyperCasualRunner-0014.lib
-       Creating library C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0014.lib and object C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0014.exp
-    [3/4] UE4Editor-HyperCasualRunner-0014.dll
-       Creating library C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0014.suppressed.lib and object C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0014.suppressed.exp
-    [4/4] HyperCasualRunnerEditor.target
-  Total time in Parallel executor: 7.92 seconds
-  Total execution time: 8.84 seconds
+  Building 6 actions with 12 processes...
+    [1/6] HyperCasualRunner.init.gen.cpp
+    [2/6] SpawnLevel.gen.cpp
+    [3/6] SpawnLevel.cpp
+    [4/6] UE4Editor-HyperCasualRunner-0018.lib
+       Creating library C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0018.lib and object C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0018.exp
+    [5/6] UE4Editor-HyperCasualRunner-0018.dll
+       Creating library C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0018.suppressed.lib and object C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4Editor\Development\HyperCasualRunner\UE4Editor-HyperCasualRunner-0018.suppressed.exp
+    [6/6] HyperCasualRunnerEditor.target
+  Total time in Parallel executor: 44.09 seconds
+  Total execution time: 68.41 seconds
