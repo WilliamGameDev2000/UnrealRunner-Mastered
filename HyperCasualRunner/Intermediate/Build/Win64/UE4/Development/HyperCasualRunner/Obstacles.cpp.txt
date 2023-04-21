@@ -1,0 +1,3 @@
+C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4\Development\HyperCasualRunner\Definitions.HyperCasualRunner.h
+C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Source\HyperCasualRunner\Obstacles.h
+C:\Users\William\Documents\GitHub\UnrealRunner-Mastered\HyperCasualRunner\Intermediate\Build\Win64\UE4\Inc\HyperCasualRunner\Obstacles.generated.h
